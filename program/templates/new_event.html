@@ -1,8 +1,14 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}
  Create New Event
 {% endblock %}
+
+{% block css %}
+  <link rel="stylesheet" href="{% static 'css/newevent.css' %}" type="text/css"/>
+{% endblock css %}
+  
 
 {% block content %}
   <h1>New Event</h1>
